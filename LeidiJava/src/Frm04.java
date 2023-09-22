@@ -33,6 +33,7 @@ public class Frm04 extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jTextField2 = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
         menuBar = new javax.swing.JMenuBar();
         fileMenu = new javax.swing.JMenu();
         openMenuItem = new javax.swing.JMenuItem();
@@ -52,6 +53,7 @@ public class Frm04 extends javax.swing.JFrame {
 
         jPanel3.setBackground(new java.awt.Color(204, 204, 255));
         jPanel3.setForeground(new java.awt.Color(153, 255, 255));
+        jPanel3.setOpaque(false);
         jPanel3.setLayout(null);
 
         jLabel2.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
@@ -104,6 +106,10 @@ public class Frm04 extends javax.swing.JFrame {
         });
         jPanel3.add(jButton1);
         jButton1.setBounds(90, 270, 100, 22);
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Bob-Esponja.jpg"))); // NOI18N
+        jPanel3.add(jLabel1);
+        jLabel1.setBounds(0, 0, 410, 390);
 
         fileMenu.setMnemonic('f');
         fileMenu.setText("File");
@@ -257,6 +263,7 @@ public class Frm04 extends javax.swing.JFrame {
     private javax.swing.JMenu fileMenu;
     private javax.swing.JMenu helpMenu;
     private javax.swing.JButton jButton1;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
